@@ -19,6 +19,9 @@ var check = document.getElementsByName("order");
 
 var result = document.getElementById("result");
 
+let height = document.getElementsByClassName("calculator")[0].offsetHeight;
+let width = document.getElementsByClassName("calculator")[0].offsetWidth;
+
 //clear function and button
 
 function clearFunction(){
@@ -56,6 +59,7 @@ btn1.addEventListener("click", function check1(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+        console.log(height, width);
     }
 });
 btn2.addEventListener("click", function check2(){
@@ -67,6 +71,7 @@ btn2.addEventListener("click", function check2(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+        console.log(height, width);
     }
 });
 btn3.addEventListener("click", function check3(){
@@ -78,6 +83,7 @@ btn3.addEventListener("click", function check3(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+        console.log(height, width);
     }
 });
 
