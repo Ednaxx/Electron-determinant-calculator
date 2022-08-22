@@ -1,10 +1,10 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    height: 400,
-    width: 300,
-    titleBarStyle: 'hidden',
+    height: 500,
+    width: 500,
+    frame: false,
     transparent: true,
     resizable: false,
     webPreferences: {
