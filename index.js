@@ -19,4 +19,9 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow()
 })
+
+
+var { aaa } = require('./src/script.js');
+
+console.log(aaa)
   

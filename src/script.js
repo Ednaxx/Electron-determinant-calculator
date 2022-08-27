@@ -1,5 +1,3 @@
-const { app } = require("electron");
-
 var btn1 = document.getElementById("btn1");
 var btn2 = document.getElementById("btn2");
 var btn3 = document.getElementById("btn3");
@@ -19,6 +17,14 @@ var check = document.getElementsByName("order");
 
 var result = document.getElementById("result");
 
+var height = document.querySelector('body').offsetHeight;
+var width = document.querySelector('body').offsetWidth;
+
+//test
+
+var aaa = 123
+
+module.exports = { aaa };
 
 //clear function and button
 
@@ -57,6 +63,11 @@ btn1.addEventListener("click", function check1(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+
+        var height = document.querySelector('body').offsetHeight;
+        var width = document.querySelector('body').offsetWidth;
+
+        console.log(width, height);
     }
 });
 btn2.addEventListener("click", function check2(){
@@ -68,6 +79,11 @@ btn2.addEventListener("click", function check2(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+
+        var height = document.querySelector('body').offsetHeight;
+        var width = document.querySelector('body').offsetWidth;
+
+        console.log(width, height);
     }
 });
 btn3.addEventListener("click", function check3(){
@@ -79,6 +95,11 @@ btn3.addEventListener("click", function check3(){
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
+
+        var height = document.querySelector('body').offsetHeight;
+        var width = document.querySelector('body').offsetWidth;
+
+        console.log(width, height);
     }
 });
 
