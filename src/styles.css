@@ -1,12 +1,9 @@
-body, .calculator {
-    height: fit-content;
-    width: fit-content;
+body {
+    background-color: rgb(40,40,40);
     margin: 0;
 }
 
 .calculator {
-    /* width: 50vw; */
-    /*height: auto; */
     margin-left: auto;
     margin-right: auto;
     display: flex;

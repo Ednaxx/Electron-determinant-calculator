@@ -2,10 +2,8 @@ const { app, BrowserWindow } = require('electron');
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    height: 500,
-    width: 500,
+    useContentSize: true,
     frame: false,
-    transparent: true,
     resizable: false,
     webPreferences: {
         nodeIntegration: true,
@@ -19,9 +17,4 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow()
 })
-
-
-var { aaa } = require('./src/script.js');
-
-console.log(aaa)
   

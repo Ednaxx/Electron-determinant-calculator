@@ -17,14 +17,6 @@ var check = document.getElementsByName("order");
 
 var result = document.getElementById("result");
 
-var height = document.querySelector('body').offsetHeight;
-var width = document.querySelector('body').offsetWidth;
-
-//test
-
-var aaa = 123
-
-module.exports = { aaa };
 
 //clear function and button
 
@@ -56,50 +48,32 @@ clear.addEventListener("click", clearFunction);
 
 btn1.addEventListener("click", function check1(){
     if(check[0].checked){
-        document.querySelector(".calculator").style.backgroundColor= "rgb(40,40,40)";
         mtrx1[0].style.display = "block";
         mtrx2[0].style.display = "none";
         mtrx3[0].style.display = "none";
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
-
-        var height = document.querySelector('body').offsetHeight;
-        var width = document.querySelector('body').offsetWidth;
-
-        console.log(width, height);
     }
 });
 btn2.addEventListener("click", function check2(){
     if(check[1].checked){
-        document.querySelector(".calculator").style.backgroundColor= "rgb(40,40,40)";
         mtrx1[0].style.display = "none";
         mtrx2[0].style.display = "block";
         mtrx3[0].style.display = "none";
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
-
-        var height = document.querySelector('body').offsetHeight;
-        var width = document.querySelector('body').offsetWidth;
-
-        console.log(width, height);
     }
 });
 btn3.addEventListener("click", function check3(){
     if(check[2].checked){
-        document.querySelector(".calculator").style.backgroundColor= "rgb(40,40,40)";
         mtrx1[0].style.display = "none";
         mtrx2[0].style.display = "none";
         mtrx3[0].style.display = "block";
         cal.style.display = "inline";
         clear.style.display = "inline";
         clearFunction();
-
-        var height = document.querySelector('body').offsetHeight;
-        var width = document.querySelector('body').offsetWidth;
-
-        console.log(width, height);
     }
 });
 
