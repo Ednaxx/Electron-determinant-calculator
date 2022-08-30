@@ -53,6 +53,7 @@ btn1.addEventListener("click", function check1(){
         mtrx3[0].style.display = "none";
         cal.style.display = "inline";
         clear.style.display = "inline";
+        document.querySelector(".buttons").style.marginBottom = "65px"
         clearFunction();
     }
 });
@@ -63,6 +64,7 @@ btn2.addEventListener("click", function check2(){
         mtrx3[0].style.display = "none";
         cal.style.display = "inline";
         clear.style.display = "inline";
+        document.querySelector(".buttons").style.marginBottom = "65px"
         clearFunction();
     }
 });
@@ -73,6 +75,7 @@ btn3.addEventListener("click", function check3(){
         mtrx3[0].style.display = "block";
         cal.style.display = "inline";
         clear.style.display = "inline";
+        document.querySelector(".buttons").style.marginBottom = "65px"
         clearFunction();
     }
 });

@@ -19,46 +19,47 @@
                 <input type="radio" name="order" value="3x3" id="btn3"/>
                 <label>3x3</label>
         </form>
+        <p id="result"></p>
         <div id="matrices">
         <div class="onex">
             <ul class="line1">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum1"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum1"/></li>
 
         </div>
         <div class="twox">
             <ul class="line1">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="211"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="212"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="211"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="212"/></li>
             </ul>
             <ul class="line2">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="221"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="222"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="221"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45' class="mtrxnum2" id="222"/></li>
             </ul>
             
         </div>
         <div class="threex">
             <ul class="line1">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="311"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="312"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="313"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="311"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="312"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="313"/></li>
             </ul>
             <ul class="line2">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="321"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="322"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="323"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="321"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="322"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="323"/></li>
             </ul>
             <ul class="line3">
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="331"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="332"/></li>
-                <li><input type="text" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="333"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="331"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="332"/></li>
+                <li><input type="text" maxlength="6" onkeypress='return event.charCode == 46 || event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45'  class="mtrxnum3" id="333"/></li>
             </ul>
         </div>
-        <p id="result"></p>
-    </div>
         <div class="buttons">
             <button id="calculate">Calculate</button>
             <button id="clear">Clear</button>
         </div>
+    </div>
+        
         <button id="quit">Quit</button>
     </div>
 <script src="src/script.js"></script>
